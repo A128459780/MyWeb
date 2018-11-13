@@ -1,0 +1,121 @@
+#page1.gwd-play-animation .gwd-motion-path-1ig5-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing": false, "sections": [ {
+      "controlPoints": ["-98px", "-60px", "-57.67px", "-54.67px", "-17.33px", "-49.33px", "23px", "-44px"], "startTimeMs": 0, "endTimeMs": 500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["23px", "-44px", "70px", "-44.67px", "117px", "-45.33px", "164px", "-46px"], "startTimeMs": 500, "endTimeMs": 1000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["164px", "-46px", "237.88px", "-34.39px", "-413.07px", "159.43px", "-98px", "72px"], "startTimeMs": 1000, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-98px", "72px", "-65.33px", "48px", "10.33px", "113px", "43px", "89px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["43px", "89px", "28.67px", "59.33px", "188.33px", "114.67px", "174px", "85px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation:gwd-motion-path-1ig5-keys-x 2.5s linear 0s 1 normal forwards;
+  transform:translate3d(-98px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1ig5-keys-x {
+  0% {
+    transform: translate3d(-98px, 0px, 0px);
+  }
+  20% {
+    transform: translate3d(23px, 0px, 0px);
+  }
+  40% {
+    transform: translate3d(164px, 0px, 0px);
+  }
+  40.5% {
+    transform: translate3d(167.51px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.345, 0.3199, 0.6681, 0.6661);
+  }
+  50.5% {
+    transform: translate3d(-54.62px, 0px, 0px);
+  }
+  56% {
+    transform: translate3d(-179.16px, 0px, 0px);
+  }
+  56.5% {
+    transform: translate3d(-178.96px, 0px, 0px);
+  }
+  60% {
+    transform: translate3d(-98px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.333, 0.3296, 0.6631, 0.6694);
+  }
+  74.5% {
+    transform: translate3d(3.86px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3377, 0.3277, 0.6473, 0.6899);
+  }
+  80% {
+    transform: translate3d(43px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2341, -0.2129, 0.8131, 0.8623);
+  }
+  84.5% {
+    transform: translate3d(68.82px, 0px, 0px);
+  }
+  99% {
+    transform: translate3d(173.29px, 0px, 0px);
+  }
+  99.5% {
+    transform: translate3d(174.91px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(174px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1ig5-anim-y {
+  animation: gwd-motion-path-1ig5-keys-y 2.5s linear 0s 1 normal forwards;
+  transform: translate3d(0px, -60px, 0px);
+}
+@keyframes gwd-motion-path-1ig5-keys-y {
+  0% {
+    transform: translate3d(0px, -60px, 0px);
+  }
+  20% {
+    transform: translate3d(0px, -44px, 0px);
+  }
+  40% {
+    transform: translate3d(0px, -46px, 0px);
+    animation-timing-function: cubic-bezier(0.2423, 0.3989, 0.6567, 0.6944);
+  }
+  48.5% {
+    transform: translate3d(0px, 33.56px, 0px);
+  }
+  56% {
+    transform: translate3d(0px, 91.91px, 0px);
+    animation-timing-function: cubic-bezier(0.0708, -0.4284, 0.8918, 0.9593);
+  }
+  60% {
+    transform: translate3d(0px, 72px, 0px);
+    animation-timing-function: cubic-bezier(0.2392, -1.3909, 0.7608, 2.3909);
+  }
+  80% {
+    transform: translate3d(0px, 89px, 0px);
+    animation-timing-function: cubic-bezier(0.1512, 2.0842, 0.3211, 2.1158);
+  }
+  87.5% {
+    transform: translate3d(0px, 83.88px, 0px);
+    animation-timing-function: cubic-bezier(0.2493, 0.7388, 0.9596, 3.7348);
+  }
+  99.5% {
+    transform: translate3d(0px, 88.5px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 85px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
